@@ -1,0 +1,134 @@
+*
+{
+	margin :0;
+	padding:0;
+}
+
+@font-face
+{
+	font-family: SCP-Regular;
+	src:url(SourceCodePro/SourceCodePro-Regular.ttf); 
+}
+
+:root
+{
+	--main-grey: #3F3D3D;
+	--main-orange: #FF7E4B;
+}
+
+body
+{
+	background: rgb(23,23,23);
+	background: linear-gradient(48deg, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 51%, rgba(75,75,75,1) 100%);
+	background-repeat: no-repeat;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	padding-left: 6%;
+	padding-right: 6%;
+	font-family: SCP-Regular;
+	font-size:2.6em;
+}
+
+a:hover
+{
+	color: var(--main-orange);
+}
+
+nav
+{
+	padding:1%;
+	padding-top:4%;
+	margin-right:5%;
+	float:right;
+	width:45%;
+}
+
+
+.main
+{
+	padding-top:12%;
+	margin-bottom:17%;
+	clear:both;
+}
+
+h1
+{
+	color:var(--main-orange);
+	padding-bottom:3%;
+	font-size:4em;
+	font-family: SCP-Regular;
+	text-align:center;
+}
+
+p
+{
+	color:white;
+	font-size:2em;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-family: SCP-Regular;
+	text-align:center;
+}
+
+.footer
+{
+	font-size:1em;
+	text-align:left;
+	padding:0%;
+	margin:0%;
+	
+}
+
+footer
+{
+	margin-left:1%;
+	margin-bottom:1%;
+	padding-left:1%;
+	padding-bottom:1%;
+	
+}
+
+.logo
+{
+	padding-top:2%;
+	padding-left:2%;
+	width:5%;
+	position:fixed;
+}
+
+img
+{
+	width:100%;
+}
+
+.social img
+{
+	width: 8%;
+	padding:1%;
+}
+
+.social
+{
+	margin-left: 30%;
+	margin-right: 20%;
+	width:60%;
+}
+
+h3
+{
+	color:white;
+	padding-bottom:3%;
+	font-size:3em;
+	font-family: SCP-Regular;
+	text-align:center;
+}
+
+h3:hover
+{
+	color:var(--main-orange);
+}
