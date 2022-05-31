@@ -13,6 +13,7 @@ body {
     background-color: rgb(16, 16, 17);
     overflow-x: hidden;
     padding-left: 10px;
+    user-select: none;
 }
 
 body input {
